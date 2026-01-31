@@ -127,12 +127,11 @@
         }
  
     }
-    const percent=Math.round(prediction[i].probability.tofixed(2)     const percent=Math.round(prediction[i].probability *100);
-        labelContainer.childNodes[i].innerHTML = prediction[i].className +": " + percent + "%";
-        labelContainer.childNodes[i].style.setProperty("--percent", percent);
+    
 </script>
 		<footer>&copybyToluwanimitchy2026</footer>
 
 </body>
 
 </html>
+
